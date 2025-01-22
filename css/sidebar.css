@@ -1,0 +1,55 @@
+.page{
+    display: grid;
+    grid-template-columns: 300px 1fr;
+    grid-template-rows: auto;
+    min-height: 100vh;
+    width: 100vw;
+}
+
+
+#sidebar{
+
+    height: 100vh;
+    position: sticky; 
+    top: 0;
+    word-wrap: break-word;
+    .sidebar-content{
+        font-size: 1.5rem;
+        margin: auto;
+        padding: 0 20px;
+    }
+    .mapeh-topic{
+
+        h2{
+            margin: 20px 0;
+        }
+        .logo-container{
+            display: flex;
+            justify-content: center;
+            border-bottom: 1px solid black;
+
+            img{
+                width: 100px;
+                object-fit: cover;
+                height: auto;
+            }
+        }
+
+        
+    }
+
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+
+
+
+#content{
+    flex-grow: 1;
+    padding: 20px;
+    min-height: 100vh;
+}

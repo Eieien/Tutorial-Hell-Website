@@ -1,0 +1,45 @@
+ body{
+    background-color: #FAFAED;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+    font-family: Fredoka;
+}
+
+
+.heading{
+    text-align: center;
+
+    
+        height: 30%;
+        width: 97%;
+    
+}
+
+.basic{
+    font-size: 24px;
+    text-align: left;
+    padding: 12px 48px 12px 48px;
+}
+
+#divider{
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+table{
+    table-layout: fixed;
+}
+
+td{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.tableimg{
+    width: 100%; 
+    height: auto; 
+    object-fit: cover;
+}
