@@ -1,0 +1,65 @@
+body{
+    background-color: #FAFAED;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+    font-family: Fredoka;
+}
+
+.page{
+    display: grid;
+    grid-template-columns: 300px 1fr;
+    grid-template-rows: auto;
+    min-height: 100vh;
+    width: 100vw;
+}
+
+
+
+header{
+    text-align: center;
+
+    img{
+        height: 30%;
+        width: 85%;
+    }
+}
+
+section{
+    padding-left: 75px;
+    padding-right: 75px;
+
+    h2{
+        font-size: 30px;
+    } 
+    h3{
+        font-size: 20px;
+        margin-top: 30px;
+    }
+    p, li{
+        font-size: 16px;
+        margin-bottom: 10px;
+    }
+    img{
+        margin-bottom: 25px;
+        height: 30%;
+        width: 70%;
+    }
+}
+
+#notes{
+    margin-top: 50px;
+}
+
+#scales{
+    margin-top: 50px;
+}
+
+#instruments{
+    margin-top: 50px;
+}
+
+footer{
+    text-align: center;
+}

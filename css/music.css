@@ -1,0 +1,156 @@
+body{
+    background-color: #FAFAED;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+    font-family: Fredoka;
+}
+
+
+
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+#content{
+    flex-grow: 1;
+    padding: 50px;
+    min-height: 100vh;
+
+header{
+    text-align: center;
+
+    img{
+        height: 30%;
+        width: 85%;
+    }
+}
+
+section{
+    padding-left: 75px;
+    padding-right: 75px;
+
+    h2{
+        font-size: 30px;
+    } 
+    h3{
+        font-size: 20px;
+        margin-top: 30px;
+    }
+    p, li{
+        font-size: 16px;
+        margin-bottom: 10px;
+    }
+    audio{
+        margin-bottom: 25px;
+    }
+    img{
+        margin-bottom: 25px;
+        height: 30%;
+        width: 70%;
+    }
+}
+
+#notes{
+    margin-top: 50px;
+
+    #container{
+        display: flex;
+        justify-content: center;
+        margin-top: 50px;
+        margin-bottom: 50px;
+
+        .major{
+            display: grid;
+            grid-row: 7;
+            justify-content: center;
+            height: 400px;
+            width: 100px;
+            cursor: pointer;
+            /* Piano Keys */
+            div.major{
+                background-color: white;
+                border: 2px solid black;
+                position: relative;
+                left: 25px;
+
+                p.major{  
+                    font-size: 50px;
+                    display: flex;
+                    justify-content: center;
+                    position: relative;
+                    top: 250px;
+                }
+            }
+
+            div.major:active{
+                background-color: rgb(196, 196, 196);
+                border: 2px solid black;
+            }
+        }
+
+        .minor{
+            display: grid;
+            grid-row: 5;
+            justify-content: center;
+            height: 250px;
+            width: 60px;
+            z-index: 1;
+            cursor: pointer;
+            div.minor{
+                background-color: black;
+
+                p.minor{  
+                    color: white;
+                    font-size: 25px;
+                    display: flex;
+                    justify-content: center;
+                    position: relative;
+                    top: 150px;
+                }
+            }
+
+            div.minor:active{
+                background-color: rgb(77, 77, 77);
+            }
+
+            #minor1{
+                position: relative;
+                right: 200px;
+            }
+            #minor2{
+                position: relative;
+                right: 145px;
+            }
+            #minor3{
+                position: relative;
+                right: 10px;
+            }
+            #minor4{
+                position: relative;
+                left: 40px;
+            }
+            #minor5{
+                position: relative;
+                left: 90px;
+            }
+        }
+    }
+}
+
+#scales{
+    margin-top: 50px;
+}
+
+#instruments{
+    margin-top: 50px;
+}
+
+footer{
+    text-align: center;
+}
+
+}

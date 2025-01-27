@@ -1,0 +1,556 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adventure Quiz</title>
+    <link rel="stylesheet" href="../css/styles.css">
+    <link rel="stylesheet" href="../css/quiz.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&family=Fredoka:wght@300..700&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+    <!-- Open Sans | Comfortaa | Fredoka -->
+</head>
+<body>
+      <header id="header">
+        <div class="right-side">
+            <div><a href="../index.html">
+                <img class="logo-icon" src="../Images/Mapeh_Logo2.png">
+            </a></div>
+            <div><a href="../pages/music.html">Music</a></div>
+            <div><a href="../pages/Arts.html">Art</a></div>
+            <div><a href="../pages/pe.html">Physical Education</a></div>
+            <div><a href="../pages/health.html">Health</a></div>
+
+        </div>
+        <div class="left-side">
+            <div>
+                <a href="../index.html">
+                    <button class="quiz-urself">
+                        Return? 
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </button>
+
+                </a>
+            </div>
+        </div>
+    </header>
+    <div id="home">
+        
+        <div id="home">
+
+            <div id="content">
+                <div id="rules" class="rules">
+                    <h1>Rules</h1>
+                    <ol>
+                      <li>
+                        If you lose, you go back to the start ;)
+                      </li>
+                      <li>
+                        No Cheating of course! or Ian will touch you
+                      </li>
+                      <li>
+                        DO NOT RELOAD THE PAGE WHEN THE GAME HAS STARTED OR IT WILL BREAK ;-;
+                      </li>
+                      <li>
+                        No Teamwork unless you want to
+                      </li>
+                      <li>
+                        Have Fun!
+                      </li>
+                    </ol>
+                    <p></p>
+                    <p>PS: there are custom options, sorry ga maoy ko 3AM ;)</p>
+                    <a href="#start" class="button" onclick="document.getElementById('rules').style.display = 'none';">Start</a>
+                </div>
+                <div >
+
+                </div>
+                <div id="start" class="story-section">
+                  
+                  <img class="person-image" src="../images/Ivan_rap.jpg">  
+                  
+                  <div class="dialogue">
+                    Ivan the rapper is here to give u some notes on music theory. He asks 
+
+                  </div>
+                  <div class="question">
+                    The pentatonic scale consists of __ notes.
+
+                  </div>
+                  <div class="Options">
+                    <a href="#ivan" class="button">Rawr</a>
+                    <a href="#Trumpet" class="button">5</a>
+                    <a href="#ivan" class="button">12</a>
+                    
+                  </div>
+                </div>
+
+                <div id="ivan" class="story-section">
+                  <img class="person-image" src="../images/Ivan_run.jpg">
+                  
+                  <div class="dialogue">
+                    Ivan seems pissed and is coming for you now
+
+                  </div>
+                  
+                  <div class="Options">
+                    <a href="#start" class="button">Restart</a>
+                    
+                  </div>
+                  
+                </div>
+                
+                <div id="Trumpet" class="story-section">
+                  <img class="person-image" src="../images/Ivan_rap.jpg">  
+                  
+                  <div class="dialogue">
+                    He seems content that you can master it, but he wants to know if u studied ur instruments well. 
+                  </div>
+                  
+                  <div class="question">
+                    Trumpets and trombones belong to the __ instrument family.<
+                  </div>
+                  
+                  <div class="Options">
+                    <a href="#clef" class="button">Woodwind</a>
+                    <a href="#ivan" class="button">Drums</a>
+                    <a href="#ivan" class="button">string</a>
+                    
+                  </div>      
+                </div>
+
+                <div id="clef" class="story-section">
+                  <img class="person-image" src="../images/Ivan_rap.jpg">  
+                
+                  <div class="dialogue">
+                    *woof woof*
+                      *beatboxes*
+                      Ivan is proud of your knowledge in instruments. He then asks for this kind of voice:
+                  </div>
+                  <div class="question">
+                    The __ clef is used for higher-pitched instruments.
+                  </div>
+                  <div class="Options">
+                    <a href="#ivan" class="button">_Bass Clef_</a>
+                    <a href="#ivan" class="button">Staff</a>
+                    <a href="#beats" class="button">_Treble Clef_</a>
+                  
+                  </div>
+                
+                </div>
+
+                <div id="beats" class="story-section">
+                  <img class="person-image" src="../images/Ivan_rap.jpg">  
+                
+                  <div class="dialogue">
+                    *ara ara*
+                      He seems satisfied, he then checks your understanding on notes:
+                  </div>
+                  <div class="question">
+                    A whole note lasts for __ beats.
+                  </div>
+                  <div class="Options">
+                    <a href="#ivan" class="button">8 beats</a>
+                    <a href="#drums" class="button">4 Beats</a>
+                    <a href="#ivan" class="button">2 beats</a>
+                  
+                  </div>
+                  
+                </div>
+                
+                <div id="drums" class="story-section">
+                  <img class="person-image" src="../images/Ivan_rap.jpg">  
+                
+                  <div class="dialogue">
+                    He seems proud now. He wants to check on your knowledge about instruments again, so that he can pair up with you and make a band together *UwU*
+                  </div>
+                  <div class="question">
+                    Drums, tambourines, and xylophones are part of the __ category of instruments.
+                  </div>
+                  <div class="Options">
+                    <a href="#ivan" class="button">Woodwind</a>
+                    <a href="#art" class="button">Perc</a>
+                    <a href="#ivan" class="button">Tailwind</a>
+                  
+                  </div>
+
+                </div>
+
+                <div id="art" class="story-section">
+                  
+                  <img class="person-image" src="../images/Steven.jpg">
+                  
+                  <div class="dialogue">
+                    The Artist Steven seems interested in your artistic skills or knowledge, idk how to dialogue this am lost. He challenges you to find if these colors are analogous or complementary
+                  </div>
+                  <div class="question">
+                    Orange and Yellow
+                  </div>
+                  <div class="Options">
+                    <a href="#a1" class="button">Analagous</a>
+                    <a href="#steven" class="button">complementary</a>
+                  </div>
+
+                  
+                </div>
+
+                <div id="steven" class="story-section">
+                  <img class="person-image" src="../images/Steven.jpg">
+                  
+                  <div class="dialogue">
+                    Steven seems pissed and is coming to paint you right now
+
+                  </div>
+                  
+                  <div class="Options">
+                    <a href="#start" class="button">Restart</a>
+                    
+                  </div>
+                </div>
+
+                <div id="a1" class="story-section">
+                  
+                  <img class="person-image" src="../images/Steven.jpg">
+                  
+                  <div class="dialogue">
+                    Steven Feels Satisfied ;)
+                  </div>
+                  <div class="question">
+                    Red and Green
+                  </div>
+                  <div class="Options">
+                    <a href="#steven" class="button">Analagous</a>
+                    <a href="#a2" class="button">complementary</a>
+                  </div>
+                  
+                  
+                </div>
+
+                <div id="a2" class="story-section">
+                  <img class="person-image" src="../images/Steven.jpg">
+                  
+                  <div class="dialogue">
+                    Steven Feels even more Satisfied ;)
+                  </div>
+                  <div class="question">
+                    Green, Purple, and Orange
+                  </div>
+                  <div class="Options">
+                    <a href="#steven" class="button">Analagous</a>
+                    <a href="#a3" class="button">complementary</a>
+                  </div>
+                  
+                </div>
+
+                <div id="a3" class="story-section">
+                  <img class="person-image" src="../images/Steven.jpg">
+                  
+                  <div class="dialogue">
+                    Steven Feels even more very Satisfied ;)
+                  </div>
+                  <div class="question">
+                    Blue Purple Pink
+                  </div>
+                  <div class="Options">
+                    <a href="#a4" class="button">Analagous</a>
+                    <a href="#steven" class="button">complementary</a>
+                    
+                  </div>
+                  
+                </div>
+                <div id="a4" class="story-section">
+                  <img class="person-image" src="../images/Steven.jpg">
+                  
+                  <div class="dialogue">
+                    Steven Feels even more super very Satisfied ;)
+                  </div>
+                  <div class="question">
+                    Yellow and Purple
+                  </div>
+                  <div class="Options">
+                    <a href="#steven" class="button">Analagous</a>
+                    <a href="#a5" class="button">complementary</a>
+                    
+                  </div>
+                  
+                </div>
+
+                <div id="a5" class="story-section">
+                  <img class="person-image" src="../images/Steven.jpg">
+                  
+                  <div class="dialogue">
+                    Steven Feels even more super super very Satisfied ;)
+                  </div>
+                  <div class="question">
+                    These are what makes one color discernable from another.
+                  </div>
+                  <div class="Options">
+                    <a href="#steven" class="button">Saturation</a>
+                    <a href="#pe" class="button">Hues</a>
+                    <a href="#steven" class="button">Her</a>
+                    
+                  </div>
+                  
+                </div>
+                
+                <div id="pe" class="story-section">
+                  <img class="person-image" src="../images/zev.jpg">
+                  
+                  <div class="dialogue">
+                    Zev the fitness coach wants to touch you carefully, but he sees that your physical education knowledge is not enough. He questions you with
+                  </div>
+                  <div class="question">
+                    What is the amount of time it takes to respond to a stimulus
+                  </div>
+                  <div class="Options">
+                    <a href="#zev" class="button">1ms when she enters your peripheral vision ;-;</a>
+                    <a href="#pe1" class="button">Reaction Time</a>
+                    <a href="#pe" class="button">Coordination</a>
+                    
+                  </div>
+                 
+                </div>
+
+                <div id="zev" class="story-section">
+                  <img class="person-image" src="../images/Emo_zev.jpg">
+                  
+                  <div class="dialogue">
+                    Zev feels betrayed and doesnt want to hold you anymore
+
+                  </div>
+                  
+                  <div class="Options">
+                    <a href="#start" class="button">Restart</a>
+                    
+                  </div>
+                </div>
+
+                <div id="pe1" class="story-section">
+                  <img class="person-image" src="../images/zev.jpg">
+                  
+                  <div class="dialogue">
+                    Feeling satisfied, he is curious about you do in your free time because he wants to see if you have the same hobbies as him
+                  </div>
+                  <div class="question">
+                    It is the amount of time left after all the daily routine activities are accomplished.
+                  </div>
+                  <div class="Options">
+                    <a href="#pe2" class="button">Leisure </a>
+                    <a href="#zev" class="button">Getting early for school</a>
+                    <a href="#zev" class="button">recreation</a>
+                    
+                  </div>
+                  
+                </div>
+
+                <div id="pe2" class="story-section">
+                  <img class="person-image" src="../images/zev.jpg">
+                  
+                  <div class="dialogue">
+                    Seeing that both of you have the same hobbies. He then asks if ever you too breath the same air as you do.
+                  </div>
+                  <div class="question">
+                    It is the ability of the lungs, heart and blood vessels to deliver adequate amounts of oxygen to the dells to meet the demands of prolonged physical education.
+                  </div>
+                  <div class="Options">
+                    <a href="#zev" class="button">Muscular Endurance </a>
+                    <a href="#pe3" class="button">Cardiovascular Endurance</a>
+                    <a href="#zev" class="button">Balance</a>
+                    
+                  </div>
+                </div>
+
+                <div id="pe3" class="story-section">
+                  <img class="person-image" src="../images/zev.jpg">
+                  
+                  <div class="dialogue">
+                    Curious about breathing the same air. Zev wants to know who do you want to be in the future with
+                  </div>
+                  <div class="question">
+                    What is something you want to do further in the future. It requires time and planning.
+                  </div>
+                  <div class="Options">
+                    <a href="#pe4" class="button">Long-term Goals </a>
+                    <a href="#zev" class="button">Short-term Goals</a>
+                    <a href="#zev" class="button">Siya</a>
+                    
+                  </div>
+                  
+                </div>
+
+                <div id="pe4" class="story-section">
+                  <img class="person-image" src="../images/zev.jpg">
+                  
+                  <div class="dialogue">
+                    Seeing that you want long term goals with him. He wants to know what you want to do with him
+                  </div>
+                  <div class="question">
+                    it should be developed with a finite among of time in mind
+                  </div>
+                  <div class="Options">
+                    <a href="#zev" class="button">A Relationship with her </a>
+                    <a href="#zev" class="button">Midterm-Goals</a>
+                    <a href="#health1" class="button">Short-term Goals</a>
+                    
+                  </div>
+                 
+                  
+                </div>
+                
+                <div id="health1" class="story-section">
+                  <img class="person-image" src="../images/sadcat.jpg">
+
+                  
+                  <div class="dialogue">
+                    I aint putting my stuff but welcome to my health issues (PS its 5AM and I still have to pass it to the repository)
+                  </div>
+                  <div class="question">
+                    Which type of health involves managing emotions and stress?
+                  </div>
+                  <div class="Options">
+                    <a href="#health2" class="button">Mental health</a>
+                    <a href="#zev" class="button">Separation Anxiety</a>
+                    <a href="#ivan" class="button">Lack of notorious health</a>
+                    
+                  </div>
+                </div>
+                      
+                <div id="health2" class="story-section">
+                  <img class="person-image" src="../images/sadcat.jpg">
+                  
+                  <div class="dialogue">
+                    Idk why am I doing this for webdev ;-;
+                  </div>
+                  <div class="question">
+                    What is a common health issue caused by poor diet and lack of exercise?
+                  </div>
+                  <div class="Options">
+                    <a href="#steven" class="button">Heart Disease</a>
+                    <a href="#health3" class="button">Obesity</a>
+                    <a href="#ivan" class="button">Isolation</a>
+                    
+                  </div>
+                  
+                </div>
+                  
+                <div id="health3" class="story-section">
+                  <img class="person-image" src="../images/sadcat.jpg">
+                  
+                  <div class="dialogue">
+                    Let me sleep :(
+                  </div>
+                  <div class="question">
+                    What Activity can improve spiritual heatlh
+                  </div>
+                  <div class="Options">
+                    <a href="#health4" class="button">Being with God</a>
+                    <a href="#zev" class="button">Ignoring personal values</a>
+                    <a href="#steven" class="button">Binge-watching arcane </a>
+                  </div>
+                  
+                </div>
+                     
+                <div id="health4" class="story-section">
+                  <img class="person-image" src="../images/sadcat.jpg">
+                  
+                  <div class="dialogue">
+                    Love you God
+                  </div>
+                  <div class="question">
+                    The person who made this quiz has zero hours of sleep, what do you think he is lacking
+                  </div>
+                  <div class="Options">
+                    <a href="#zev" class="button">Mental Health</a>
+                    <a href="#health5" class="button">7-9 hours of absolutely perfecltly calm sleep</a>
+                    <a href="#ivan" class="button">her</a>
+                  </div>
+                  
+                </div>
+                
+                <div id="health5" class="story-section">
+                  <img class="person-image" src="../images/sadcat.jpg">
+                  
+                  <div class="dialogue">
+                    Let me rest in peace
+                  </div>
+                  <div class="question">
+                    What is a major cause of heart disease?
+                  </div>
+                  <div class="Options">
+                    <a href="#zev" class="button">Regular exercise</a>
+                    <a href="#bonus" class="button">Poor lifestyle choices</a>
+                    <a href="#ivan" class="button">Getting enough rest</a>
+                  </div>
+
+                  
+                  
+                </div>
+
+                <div id="bonus" class="story-section">
+                  <img class="person-image" src="../images/sadcat.jpg">
+                  
+                  <div class="dialogue">
+                    Bonus question
+                      What is the Full name of our web dev teacher
+                      (NO LOOKING FOR HINTS!)
+                  </div>
+                  <div class="question">
+                    The person who made this quiz has zero hours of sleep, what do you think he is lacking
+                  </div>
+                  <div class="Options">
+                    <a href="#zev" class="button">Eren J. Jaeger</a>
+                    <a href="#end" class="button">Miss Karen Kim G. Tan</a>
+                    <a href="#ivan" class="button">Geri Gian C. Epanto </a>
+                  </div>
+
+
+                </div>
+                      
+                <div id="end" class="story-section">
+                  <img class="person-image" src="../images/yipee.gif">
+                  
+                  <div class="dialogue">
+                    Congratulations on making the end, hope you learn something new from Mapeh mga CS students and future students as well!
+                  </div>
+                  <div class="Options">
+                    <a href="#start" class="button">Restart?</a>
+                    <a href="../index.html" class="button">Back to home screen</a>
+                  </div>
+                  <p></p>
+                  
+                </div> 
+    
+                      
+    
+                      
+    
+                      
+    
+                      
+    
+                      
+    
+                      
+    
+    
+                      
+                </div>
+            </div>
+        </div>
+
+        <footer>
+                
+                overloadstudios@gmail.com<br>
+                +63 099 2635 241
+
+                
+        </footer>
+
+    </div>
+
+
+    <script src="https://kit.fontawesome.com/a362a71040.js" crossorigin="anonymous"></script>
+
+</body>
+</html>

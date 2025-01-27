@@ -1,0 +1,40 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+    font-family: Fredoka;
+}
+
+#megatron{
+    width: 100%;
+    min-width: 100vh;
+
+    .main_container{
+        width: 82%;
+        display: block;
+        margin: auto;
+    }
+    
+    .main_introduction{
+        padding: 10px;
+    }
+    
+    .main_image img{
+        width: 100%;
+        height: auto;
+        
+    }
+
+    .main_image, .main_topic-description{
+        padding-top: 20px;
+
+        h1, h3{
+            padding-top: 20px;
+        }
+        p{
+            padding-top: 15px;
+        }
+    }
+    
+}
